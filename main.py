@@ -5,5 +5,5 @@ while logic:
     except:logic = True
 i = make(j);os.remove(os.path.join(os.path.join('static', 'pics'), 'im.png'));i.save(os.path.join(os.path.join('static', 'pics'), 'im.png'), format='PNG');app = Flask(__name__)
 @app.route('/')
-def index():return render_template('index5.html',user_image=os.path.join(os.path.join('static','pics'),'im.png'),what=os.path.join(os.path.join('static','pics'),'what.png'))
+def index():return render_template('index5.html',user_image=os.path.join(os.path.join('static','pics'),'im.png'))
 if __name__=='__main__':app.run(debug=True)
