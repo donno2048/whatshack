@@ -1,7 +1,7 @@
 # whatshack
 use this to create a fake whats-app web page
 
-if someone uses the same wi-fi as you are, you can run main.py
+if someone uses the same machine as you are, you can run main.py
 
 then, if he open the url you see when running the code he will see a fake whats-app registering page.
 
